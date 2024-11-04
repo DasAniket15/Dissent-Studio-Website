@@ -1,10 +1,11 @@
 
 import './App.css';
+import NavBar from './Navbar';
 
 function App() {
   return (
     <div className="App">
-      heyy:333
+      <NavBar/>
     </div>
   );
 }
