@@ -345,6 +345,7 @@ input:checked + label .description {
     text-align: left;
     color: var(--sec);
     border: 2px solid maroon;
+    font-weight: bold;
 }
 
 .aboutRM
@@ -386,6 +387,8 @@ input:checked + label .description {
 {
     margin: 2%;
     margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     border: 2px solid magenta;
     display: flex;
     flex-direction: row;
