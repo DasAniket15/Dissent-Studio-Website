@@ -517,3 +517,31 @@ input:checked + label .description {
     margin-top:10%;
     margin-left: 5%;
 }
+
+.imgOverlay
+{
+    width: 100vw;
+    height: 105vh;
+    background-color: #000000;
+    z-index: 50;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
+}
+
+.imgText
+{
+    width: 100vw;
+    height: 105vh;
+    color: var(--sec);
+    position: absolute;
+    bottom: 0;
+    right: 10;
+    font-size: 200%;
+    /* margin-top: 1000px; */
+    text-align: center;
+    padding-top: 70vh;
+    padding-right: 1200px;
+    z-index: 80;
+}
