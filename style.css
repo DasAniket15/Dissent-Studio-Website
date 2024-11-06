@@ -362,14 +362,14 @@ input:checked + label .description {
 
 .aboutElement{
     /* border: 2px solid magenta; */
-    margin: 0.5%;
+    margin: 4%;
 }
 
 .aboutImg
 {
-    width: 100vw;
-    height: 80vh;
-    background-color: wheat;
+    width: 110%;
+    height: 110%;
+    /* background-color: wheat; */
 
 }
 
