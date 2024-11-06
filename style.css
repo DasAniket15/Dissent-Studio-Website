@@ -309,6 +309,11 @@ h1 {
     padding-top: 5px;
     font-size: 20px;
     font-weight: bold;
+    text-decoration: underline;
+}
+
+.description a:hover{
+    color: white;
 }
 
 .description h4 {
