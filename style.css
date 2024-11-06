@@ -136,6 +136,20 @@ h1 {
     margin-bottom: 60px;
 }
 
+.aboutElement h1{
+    font-size: 220px;
+    font-weight: bold;
+}
+
+.aboutElement h2{
+    font-size: 156px;
+    color: #FFF200;
+}
+
+.aboutContent{
+    font-size: 24px;
+}
+
 .image-placeholder {
     width: 904px; /* Width of the image placeholder */
     height: 620px; /* Height of the image placeholder */
