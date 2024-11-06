@@ -151,7 +151,8 @@ h1 {
 }
 
 .aboutContent{
-    font-size: 24px;
+    font-size: 150%;
+    margin-top: 2%;
 }
 
 .image-placeholder {
@@ -255,6 +256,8 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -6%;
+    margin-bottom: -6%;
 }
 
 .container-beta {
@@ -410,18 +413,25 @@ input:checked + label .description {
 .teamImg
 {
     align-self: center;
-    
     /* border: 2px solid yellow; */
-    height: 600px;
+    /* border: 2px solid yellow; */
+    /* height: 600px; */
     /* margin-top: 10%; */
     width: 100%;
-    background-color: wheat;
+    /* width: 50%; */
+    height: 50%;
+    /* background-color: wheat; */
 }
 
 .teamContent
 {
     color: var(--sec);
     margin-top: 0.5%;
+    font-size: 150%;
+    width: 50%;
+    /* border: 2px solid yellowgreen; */
+    align-self: center;
+    margin: 3%;
 }
 
 .footerContainer
@@ -494,4 +504,10 @@ input:checked + label .description {
 .navItem:hover
 {
     color: #FFF200;
+}
+
+.footerLogo
+{
+    margin-top:10%;
+    margin-left: 5%;
 }
