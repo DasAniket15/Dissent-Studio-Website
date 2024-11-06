@@ -27,12 +27,15 @@ body{
 
 .navbar{
     background-color: #000000;
+    width: 100%;
     /* background-color: lightblue; */
     font-family: "Afacad";
     padding-right: 15px;
     padding-left: 15px;
     margin-top: -10px;
     margin-bottom: -10px;
+    position: fixed;
+    z-index: 100;
 
 }
 
@@ -64,8 +67,9 @@ li a{
     font-size: 40px;
     font-weight: bold;
     margin-right: 25px;
-    font-family: "Afacad";
+    font-family: "Afacad";  
 }
+
 
 .Imgdiv{
     position: relative;
@@ -351,13 +355,13 @@ input:checked + label .description {
 .aboutContainer{
     display: flex;
     flex-direction: row;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: var(--sec);
     margin: 2%;
 }
 
 .aboutElement{
-    border: 2px solid magenta;
+    /* border: 2px solid magenta; */
     margin: 0.5%;
 }
 
@@ -369,11 +373,20 @@ input:checked + label .description {
 
 }
 
-.aboutHeader{
+.header{
     text-align: left;
     color: var(--sec);
-    border: 2px solid maroon;
+    /* border: 2px solid maroon; */
     font-weight: bold;
+    font-size: 17vh;
+    margin-left: 1%;
+}
+
+.aboutHeader2
+{
+    color: #FFF200;
+    font-size: 12vh;
+    margin-top: -6%;
 }
 
 .aboutRM
@@ -383,12 +396,12 @@ input:checked + label .description {
 
 .projectContainer{
     margin: 2%;
-    border: 2px solid magenta;
+    /* border: 2px solid magenta; */
 }
 
 .teamContainer{
     margin: 2%;
-    border: 2px solid magenta;
+    /* border: 2px solid magenta; */
     display: flex;
     flex-direction: column;
     /* font-size: xx-large; */
@@ -398,7 +411,7 @@ input:checked + label .description {
 {
     align-self: center;
     
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     height: 600px;
     /* margin-top: 10%; */
     width: 100%;
@@ -417,7 +430,7 @@ input:checked + label .description {
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    border: 2px solid magenta;
+    /* border: 2px solid magenta; */
     display: flex;
     flex-direction: row;
     background-color: #000000;
@@ -425,7 +438,7 @@ input:checked + label .description {
 
 .footerContent
 {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     margin: 2%;
     width: 30%;
     color: var(--sec);
@@ -444,7 +457,7 @@ input:checked + label .description {
 
 .emailText
 {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     border-radius: 20px;
     width: 100%;
     height: 20%;
@@ -452,4 +465,33 @@ input:checked + label .description {
     padding-top: 1.5%;
     color: #000000;
     background-color: var(--sec);
+}
+
+.duoColorHeader
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.head1{
+    color: #FFF200;
+}
+
+.footHeader
+{
+    font-family: "Afacad";
+    font-size: 5vh;
+    text-align: left;
+    font-style: bold;
+}
+
+.navItem
+{
+    color: var(--sec);
+    transition: color 0.3s
+}
+
+.navItem:hover
+{
+    color: #FFF200;
 }
