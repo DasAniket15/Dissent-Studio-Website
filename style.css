@@ -12,6 +12,13 @@
     text-decoration: none;
 }
 
+.LogoImg{
+    height: 93px;
+    width: 165px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
 body{
     margin: 0;
     background-color: var(--tert);
@@ -127,6 +134,20 @@ h1 {
     margin-bottom: 60px;
     margin-top: 60px;
     margin-bottom: 60px;
+}
+
+.aboutElement h1{
+    font-size: 220px;
+    font-weight: bold;
+}
+
+.aboutElement h2{
+    font-size: 156px;
+    color: #FFF200;
+}
+
+.aboutContent{
+    font-size: 24px;
 }
 
 .image-placeholder {
