@@ -12,6 +12,13 @@
     text-decoration: none;
 }
 
+.LogoImg{
+    height: 93px;
+    width: 165px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
 body{
     margin: 0;
     background-color: var(--tert);
