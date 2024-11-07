@@ -347,17 +347,27 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-    background-image: url('src/earth_game.png');
+    background-image: url('src/zombie_slayer.png');
 }
 .card[for="c2"] {
-    background-image: url('src/saviour_london.png');
+    background-image: url('src/atari_breakout.png');
 }
 .card[for="c3"] {
-    background-image: url('./img3.jpeg');
+    background-image: url('src/earth_game.png');
 }
 .card[for="c4"] {
-    background-image: url('./img4.jpeg');
+    background-image: url('src/saviour_london.png');
 }
+.card[for="c5"] {
+    background-image: url('src/clink.png');
+}
+.card[for="c6"] {
+    background-image: url('src/chess_engine.png');
+}
+.card[for="c7"] {
+    background-image: url('');
+}
+
 
 /* SHAAN */
 
